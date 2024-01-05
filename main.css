@@ -1,0 +1,202 @@
+.img1 {
+  width: 40px;
+  border-radius: 50%;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.div2 {
+  display: flex;
+  width: 220px;
+}
+.td1 {
+  width: 10%;
+  position: relative;
+  right: 19%;
+}
+.td2 {
+  width: 10%;
+  position: relative;
+  right: 7.5%;
+}
+.td3 {
+  position: relative;
+  right: 3.5%;
+}
+.btnDel {
+  border: none;
+  background-color: #ccc;
+  border-radius: 5px;
+  color: white;
+}
+.btn {
+  border: none;
+  background-color: rgb(0, 210, 252);
+  border-radius: 5px;
+  color: white;
+}
+.history{
+  width: 15%;
+  height: 35px;
+}
+.history1{
+  width: 15%;
+  height: 35px;
+}
+
+.btnInfo {
+  border: none;
+  background-color: rgb(0, 210, 252);
+  border-radius: 5px;
+  color: white;
+}
+.inp3 {
+  width: 20%;
+  height: 30px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.Add1 input {
+  height: 35px;
+  width: 90%;
+  margin-bottom: 4%;
+}
+.form2 input {
+  height: 35px;
+  width: 90%;
+  margin-bottom: 4%;
+}
+.form2 button {
+  width: 20%;
+  border: none;
+  height: 4vh;
+  background-color: turquoise;
+  color: white;
+  border-radius: 5px;
+}
+.editModal {
+  width: 22%;
+  height: 320px;
+  border: none;
+  border-radius: 5px;
+}
+#history1{
+  width: 20%;
+  height: 37px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+.inp4 {
+  width: 20%;
+  height: 35px;
+  margin-bottom: 3%;
+  margin-left: 73%;
+
+  border-radius: 5px;
+}
+.boxer {
+  width: 100%;
+  text-align: end;
+}
+th {
+  margin-top: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+.light {
+  width: 7%;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 3px;
+}
+.dark {
+  width: 7%;
+  height: 30px;
+  background-color: gray;
+  color: black;
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 3px;
+}
+.Add {
+  width: 7%;
+  height: 30px;
+  color: white;
+  background-color: rgb(0, 183, 255);
+  border: none;
+  border-radius: 3px;
+}
+.btn {
+  width: 50%;
+  margin-bottom: 3%;
+}
+.btn5 {
+  width: 50%;
+  margin-bottom: 3%;
+}
+.Modal {
+  margin-left: 85%;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+}
+.Modal button {
+  width: 60%;
+  height: 25px;
+  margin-bottom: 4%;
+}
+.box {
+  padding-top: 5%;
+  border: none;
+  text-align: center;
+}
+.inp1 {
+  width: 90%;
+  height: 35px;
+  margin-bottom: 4%;
+}
+.modalAdd {
+  width: 25%;
+  height: 420px;
+  border: none;
+  border-radius: 2px;
+}
+.btn1 {
+  width: 20%;
+  height: 26px;
+  border: none;
+  background-color: rgb(22, 183, 247);
+  color: white;
+  border-radius: 3px;
+  margin-top: 10%;
+}
+.btn2 {
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 26px;
+  border: 1px solid rgb(51, 190, 245);
+  background-color: white;
+  color: rgb(46, 187, 243);
+  border-radius: 3px;
+}
+.img1 {
+  padding: 4%;
+}
+.tr1 {
+  border-bottom: 1px solid rgb(186, 185, 185);
+}
+.modall {
+  margin-left: 67%;
+  border: none;
+  width: 30%;
+  height: 95vh;
+}

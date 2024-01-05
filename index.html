@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.2-web/css/all.css ">
+</head>
+
+<body class="body">
+    <div class="boxer">
+        <button class="Add">New +</button>
+        <button class="light"><i class="fa-solid fa-sun fa-sm" style="color: black   ;"></i> Light</button>
+        <button class="dark"><i class="fa-solid fa-moon fa-sm" style="color: black    ;"></i> Dark</button>
+    </div>
+
+    <div class="box1">
+       
+        <select class="history">
+            <option>true</option>
+            <option>false</option>
+        </select>
+
+    
+        <select class="history1">
+            <option>Dushanbe</option>
+            <option>Madrid</option>
+            <option>London</option>
+        </select>
+
+        <input class="inp4" type="search" placeholder="Search...">
+        </datalist>
+
+    </div>
+
+    <dialog class="modalAdd">
+        <h1>Add New</h1>
+        <form class="Add1">
+            <input type="text" placeholder="Image" name="avatar"><br>
+            <input type="text" placeholder="Name" name="title"><br>
+            <input type="text" placeholder="E-mail" name="email"><br>
+            <input type="text" placeholder="City" name="city"><br>
+            <input type="text" placeholder="Phone" name="phone"><br>
+            <button class="btn1">Save</button>
+            <button class="btn2">Cancel</button>
+        </form>
+    </dialog>
+
+    <dialog class="Modal">
+        <button class="btnDel"><i class="fa-solid fa-trash fa-sm" style="color: red;"></i> Delete</button><br>
+        <button class="btn"><i class="fa-solid fa-edit fa-sm" style="color:gray;"></i> Edit</button><br>
+        <button class="btnInfo"><i class="fa-solid fa-user fa-sm" style="color: gray    ;"></i> Info</button>
+    </dialog>
+
+    <dialog class="editModal">
+        <form class="form2">
+            <input type="text" name="inp3"><br>
+            <input type="text" name="inp4"><br>
+            <input type="text" name="inp5"><br>
+            <input type="text" name="inp6"><br>
+            <input type="text" name="inp7"><br>
+            <button class="btnSave">Save</button>
+        </form>
+    </dialog>
+
+    <dialog class="modall">
+        <div class="info"></div>
+        <button class="btn6">ok</button>
+    </dialog>
+
+
+
+    <table style="width: 100%; border-collapse: collapse; " class="table">
+        <thead
+            style="width: 213%;  border-bottom: 1px solid rgb(112, 111, 111);display: flex;background-color:deepskyblue;">
+            <tr style="width: 87%;display: flex; justify-content: space-around;">
+                <th style="height: 40px;"><i class="fa-solid fa-user fa-xs" style="color:gold;"></i> . Name</th>
+                <th><i class="fa-solid fa-city fa-xs" style="color:gold;"></i> . City</th>
+                <th><i class="fa-solid fa-clock fa-xs" style="color:gold;"></i> . Status</th>
+                <th><i class="fa-solid fa-phone-volume fa-xs" style="color:gold;"></i> . Phone</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
